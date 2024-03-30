@@ -27,18 +27,18 @@
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="1" Grid.Column="1" Text="Регистрация" TextAlignment="Center" FontSize="50" VerticalAlignment="Top"/>
         <TextBlock Text="Введите свой e-mail" Grid.Column="1" Grid.Row="2" FontSize="20" TextAlignment="Center" VerticalAlignment="Bottom"/>
-        <TextBox Grid.Row="3" Grid.Column="1" VerticalAlignment="Top" Height="45"/>
-        <TextBlock Text="Введите новый логин" Grid.Column="1" Grid.Row="4" TextAlignment="Center" FontSize="20" VerticalAlignment="Bottom"/>
-        <TextBox Grid.Row="5" Grid.Column="1" VerticalAlignment="top" Height="45"/>
+        <TextBox Grid.Row="3" Grid.Column="1" VerticalAlignment="Top" Height="45" />
+        <TextBlock Text= "Введите новый логин" Grid.Column="1" Grid.Row="4" TextAlignment="Center" FontSize="20" VerticalAlignment="Bottom"/>
+        <TextBox Grid.Row="5" Grid.Column="1" VerticalAlignment="top" Height="45" Name ="LoginBox"/>
         <TextBlock Text="Введите новый пароль" Grid.Column="1" Grid.Row="6" FontSize="20" TextAlignment="Center" VerticalAlignment="Bottom"/>
-        <TextBox Grid.Row="9" Grid.Column="1" VerticalAlignment="Top" Height="45"/>
+        <TextBox Grid.Row="9" Grid.Column="1" VerticalAlignment="Top" Height="45" Name="PasswordBox"/>
         <TextBlock Text="Повторите новый пароль" Grid.Column="1" Grid.Row="8" TextAlignment="Center" FontSize="20" VerticalAlignment="Bottom"/>
-        <TextBox Grid.Row="7" Grid.Column="1" VerticalAlignment="top" Height="45"/>
-        <Button Content="Регистрация" Background="CadetBlue" Grid.Row="10" Grid.Column="1" Width="175" Height="35" FontSize="20" Click="Button_Click"/>
+        <TextBox Grid.Row="7" Grid.Column="1" VerticalAlignment="top" Height="45" TextChanged="TextBox_TextChanged"/>
+        <Button Content="Регистрация" Background="CadetBlue" Grid.Row="10" Grid.Column="1" Width="175" Height="35" FontSize="20" Click="RegButton_Click"/>
         <Image Source="/Image/people.png" Grid.Column="0" Grid.Row="5" HorizontalAlignment="Left" Width="37" Margin="132,0,0,0" />
         <Image Source="/Image/mail.png" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Left" Width="43" Margin="132,18,0,0" Grid.RowSpan="2" />
         <Image Source="/Image/guard.png" Grid.Column="0" Grid.Row="7" HorizontalAlignment="Right" Width="37" />
         <Image Source="/Image/guard.png" Grid.Column="0" Grid.Row="9" HorizontalAlignment="Right" Width="37" />
-
+        <Button Content="Назад" Background="PaleVioletRed" Grid.Row="1" Grid.Column="0" Width="89" Height="40" FontSize="20" Click="Button_Click1"/>
     </Grid>
 </Window>
