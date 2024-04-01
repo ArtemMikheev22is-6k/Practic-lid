@@ -26,7 +26,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="1" Grid.Column="1" Text="Регистрация" TextAlignment="Center" FontSize="50" VerticalAlignment="Top"/>
-        <TextBlock Text="Введите свой e-mail" Grid.Column="1" Grid.Row="2" FontSize="20" TextAlignment="Center" VerticalAlignment="Bottom"/>
+        <TextBlock Text="Введите свой e-mail" Grid.Column="1" Grid.Row="2" FontSize="20" TextAlignment="Center" VerticalAlignment="Bottom" Name="mail"/>
         <TextBox Grid.Row="3" Grid.Column="1" VerticalAlignment="Top" Height="45" />
         <TextBlock Text= "Введите новый логин" Grid.Column="1" Grid.Row="4" TextAlignment="Center" FontSize="20" VerticalAlignment="Bottom"/>
         <TextBox Grid.Row="5" Grid.Column="1" VerticalAlignment="top" Height="45" Name ="LoginBox"/>

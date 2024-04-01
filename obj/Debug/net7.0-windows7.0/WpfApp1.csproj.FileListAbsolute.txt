@@ -1,0 +1,6 @@
+C:\Users\student\Desktop\Practic-lid\obj\Debug\net7.0-windows7.0\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\Practic-lid\obj\Debug\net7.0-windows7.0\MainWindow.g.cs
+C:\Users\student\Desktop\Practic-lid\obj\Debug\net7.0-windows7.0\registration.g.cs
+C:\Users\student\Desktop\Practic-lid\obj\Debug\net7.0-windows7.0\App.g.cs
+C:\Users\student\Desktop\Practic-lid\obj\Debug\net7.0-windows7.0\WpfApp1_MarkupCompile.cache
+C:\Users\student\Desktop\Practic-lid\obj\Debug\net7.0-windows7.0\WpfApp1_MarkupCompile.lref

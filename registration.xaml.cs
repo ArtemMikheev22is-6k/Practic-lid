@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -47,13 +48,23 @@ namespace WpfApp1
         private void RegButton_Click(object sender, RoutedEventArgs e)
         {
 
-            var login =LoginBox.Text;
+            var login = LoginBox.Text;
 
             var pass =PasswordBox.Text;
 
             var context = new AppDbContext();
 
-            var user_exists = context.Users.FirstOrDefault(x => x.Login == login);  
+            var user_exists = context.Users.FirstOrDefault(x => x.Login == login);
+            if (login.Length == 0)
+            {
+                MessageBox.Show("Введите логин!");
+                return;
+            }
+            if(pass.Length == 0)
+            {
+                MessageBox.Show("Введите пароль!");
+                return;
+            }
             if (user_exists is not null) 
             {
                 MessageBox.Show("Такой пользователь уже в клубе крутышек");

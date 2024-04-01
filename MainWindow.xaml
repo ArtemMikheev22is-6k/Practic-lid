@@ -25,7 +25,7 @@
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="1" Grid.Column="1" Text="Авторизация" TextAlignment="Center" FontSize="50"/>
         <TextBlock Text="Логин" Grid.Column="1" Grid.Row="2" FontSize="20" TextAlignment="Center" VerticalAlignment="Bottom"/>
-        <TextBox Grid.Row="3" Grid.Column="1" VerticalAlignment="Bottom" Height="45" TextChanged="TextBox_TextChanged" Name="loginbox"/>
+        <TextBox Grid.Row="3" Grid.Column="1" VerticalAlignment="Bottom" Height="45"  Name="loginbox"/>
         <TextBlock Text="Пароль" Grid.Column="1" Grid.Row="4" TextAlignment="Center" FontSize="20" VerticalAlignment="Bottom"/>
         <TextBox Grid.Row="5" Grid.Column="1" VerticalAlignment="Bottom" Height="45" Name="PasswordBox"/>
         <Image Source="/Image/people.png" Grid.Column="0" Grid.Row="3" HorizontalAlignment="Right" />
